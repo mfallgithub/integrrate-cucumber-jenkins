@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Run Tests') {
       steps {
-        sh './mvn clean test'
+        sh './mvnm clean test'
       }
       post {
         always {
